@@ -20,3 +20,5 @@ Documentation, configuration files, and scripts for my self-hosted Ubuntu home s
 ## Setup & Maintenance
 * Remote management via SSH and Webmin
 * **External Tunneling:** [playit.gg](https://playit.gg) agent for public game server access without router port forwarding or exposing home IP
+* **Remote VPN Access:** Self-hosted bare-metal WireGuard VPN for encrypted remote administration (SSH & AMP Panel)
+* **Network Documentation:** See [NETWORKING.md](./NETWORKING.md) for full WireGuard and `playit.gg` configuration details
