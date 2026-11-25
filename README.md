@@ -25,7 +25,7 @@ Documentation, configuration files, and scripts for my self-hosted Ubuntu home s
   
 ## Security & Hardening Projects
 
-### [Automated Ubuntu Server CIS Hardening (Ansible + Lynis)](./ubuntu-cis-hardening/)
+### [Automated Ubuntu Server CIS Hardening (Ansible + Lynis)](./ubuntu-cis-hardening.md/)
 * **Overview:** Automated CIS-aligned security hardening orchestrated from a Kali Linux control node against an Ubuntu 26.04 server.
 * **Key Controls:** Deployed `fail2ban`, `auditd`, `aide` (File Integrity Monitoring), hardened `sshd_config`, restricted cron/sudoers permissions, and applied `sysctl` kernel protections while preserving active tunnel routing.
 * **Result:** Increased Lynis Hardening Index from **56** to **74** (+32.1%).
